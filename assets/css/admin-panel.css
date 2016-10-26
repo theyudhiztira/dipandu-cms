@@ -1,0 +1,35 @@
+.admin-breadcrumbs{
+  margin-left: 75px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 992px){
+  .content-container{
+    padding: 10px !important;
+  }
+}
+
+.content-container{
+  padding: 20px !important;
+}
+
+.content-box{
+  background-color: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.content-title{
+  border-bottom: 1px solid #CFD8DC;
+  width: 100%;
+}
+
+.expand-icon{
+  float: right;
+  line-height: 15px;
+}
+
+.expand-icon:hover{
+  cursor: pointer !important;
+  color: #F50057;
+  transition: 0.3s color;
+}

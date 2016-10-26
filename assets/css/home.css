@@ -1,0 +1,162 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.header{
+  background-color: #0288D1;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  padding: 20px 0 20px 0;
+}
+
+@media only screen and (max-width: 991px){
+  .header{
+    padding: 0 0 0 0;
+  }
+
+  .main-title{
+    font-size: 22px;
+  }
+
+  .home-content-title{
+    font-size: 18px;
+  }
+}
+
+.home-content-title{
+  text-align: justify;
+}
+
+.mini-thumbnail{
+  width: 100%;
+  height: auto;
+}
+
+.home-content{
+  text-align: justify;
+  position: relative;
+  color: #757575;
+}
+
+.home-content-container{
+  padding: 10px 10px 10px 10px !important;
+}
+
+.home-content-box{
+  background-color: #FFF;
+  color: #000;
+  padding: 5px 5px 5px 5px !important;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.home-content-box a{
+  color: #000;
+}
+
+.home-content-box h5{
+  margin: 0px;
+}
+
+.home-content-title-tutorial{
+  font-size: 16px;
+}
+
+.post-time{
+  color: #999999;
+  font-size: 10px;
+}
+
+nav{
+  background-color: #0288D1;
+  box-shadow: none;
+}
+
+footer.page-footer{
+  background-color: #0288D1;
+}
+
+.pagination{
+  margin-top: 35px;
+}
+
+.pagination a{
+  color: #FFF;
+  background-color: #FF6F00;
+  font-weight: bold;
+  border-radius: 2.5px;
+  margin: 2px;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+}
+
+.pagination a:hover{
+  background-color: #E65100;
+  transition: background-color 0.3s;
+}
+
+.pagination strong{
+  color: #FFF;
+  background-color: #37474F;
+  font-weight: bold;
+  border-radius: 2.5px;
+  margin: 2px;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+}
+
+.read-content-box{
+  background-color: #FFF;
+  color: #000;
+  padding: 35px 35px 35px 35px !important;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.read-content-box a{
+  color: #000;
+}
+
+.read-content-box h3{
+  margin: 0px !important;
+}
+
+.detail-icon{
+  color: #9E9E9E;
+}
+
+.top-articles li{
+  padding: 20px;
+  font-size: 18px;
+}
+
+.top-articles b{
+  font-size: 12px;
+  color: #9E9E9E;
+}
+
+.top-articles a{
+  color: #000;
+}
+
+.top-articles-box{
+  background-color: #FFF;
+  color: #000;
+  padding: 35px 35px 35px 35px !important;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+@media only screen and (max-width: 991px){
+  .top-articles-box h5{
+    font-size: 18px;
+  }
+
+  .read-content-box{
+    padding: 15px 15px 15px 15px !important;
+  }
+
+  .top-articles li{
+    padding: 10px;
+    font-size: 14px;
+  }
+}
